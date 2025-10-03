@@ -106,7 +106,7 @@ This takes a long time.
 
 Then write the ISO file:
 ```
-.\oscdimg.exe -n -m -bc:\Winwork\iso\boot\etfsboot.com C:\winwork\ISO\ c:\NEW_SES_Win11_ISO_202509301355.iso
+.\oscdimg.exe -n -m -bc:\Winwork\iso\boot\etfsboot.com C:\winwork\ISO\ c:\NEW_Win11_ISO_202509301355.iso
 ```
 
 Then use Rufus to write it to the thumb drive.
@@ -114,6 +114,9 @@ Then use Rufus to write it to the thumb drive.
 This takes a long time.
 
 Then an attempt to boot gave a ms updater error.
+
+0x8007000D 0x4002C
+
 ## Fifth effort -- Image directly from Microsoft
 Microsoft updated their website to supply an image for the laptop that I was working on:
 
